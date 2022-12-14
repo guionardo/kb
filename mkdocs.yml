@@ -2,6 +2,17 @@ site_name: Guionardo's Knowledge Base
 
 theme:
   name: material
+  palette:
+    - scheme: slate
+      primary: deep green
+      toggle: 
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
   icon:
     repo: fontawesome/brands/github
     tag:

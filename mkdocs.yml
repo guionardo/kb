@@ -29,5 +29,8 @@ extra:
       link: https://linkedin.com/in/guionardo
     - icon: fontawesome/brands/github
       link: https://github.com/guionardo
+  analytics:
+    provider: google
+    property: G-XP7VGCD38K
 
 repo_url: https://github.com/guionardo/kb

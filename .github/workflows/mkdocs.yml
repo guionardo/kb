@@ -26,7 +26,9 @@ jobs:
 
       - name: Install requirements
         run: |
-          pip install -r requirements.txt
+          pip install poetry
+          poetry update
+      # pip install -r requirements.txt
       - name: Build and deploy
         working-directory: .
         run: mkdocs gh-deploy --force --clean --verbose

@@ -12,23 +12,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.x
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 18
-      # - name: Minimizing CSS
-      #   run: |
-      #     npm install uglifycss -g
-      #     uglifycss cinder/css/base.css > cinder/css/base.min.css
-      #     uglifycss cinder/css/bootstrap-custom.css > cinder/css/bootstrap-custom.min.css
-      #     uglifycss cinder/css/cinder.css > cinder/css/cinder.min.css
-      #     uglifycss cinder/css/highlight.css > cinder/css/highlight.min.css
-
+          python-version: 3.x      
       - name: Install requirements
-        run: |
-          pip install poetry
-          poetry update
-      # pip install -r requirements.txt
+        run: |          
+          pip install -r requirements.txt
       - name: Build and deploy
         working-directory: .
         run: mkdocs gh-deploy --force --clean --verbose

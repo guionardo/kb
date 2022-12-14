@@ -10,4 +10,4 @@ My personal knowledge-base
 ## Links
 
 * [MkDocs](https://www.mkdocs.org/)
-* [Python Markdown Extensions](https://squidfunk.github.io/mkdocs-material/)
+* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)

@@ -17,6 +17,7 @@ plugins:
       tags_file: tags.md
   - git-revision-date-localized:
       enable_creation_date: true
+  - search
 
 extra:
   tags:

@@ -9,7 +9,7 @@ theme:
       js: fontawesome/brands/js
       css: fontawesome/brands/css3
       python: fontawesome/brands/python
-      go: fontawesome/brands/go
+      go: fontawesome/brands/golang
   features:
     - header.autohide
     - announce.dismiss

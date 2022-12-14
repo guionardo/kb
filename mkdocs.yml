@@ -7,10 +7,13 @@ theme:
     tag:
       html: fontawesome/brands/html5
       js: fontawesome/brands/js
-      css:  fontawesome/brands/css3
+      css: fontawesome/brands/css3
       python: fontawesome/brands/python
+      go: fontawesome/brands/go
   features:
     - header.autohide
+    - announce.dismiss
+    - content.tabs.link
 
 plugins:
   - tags:
@@ -25,7 +28,7 @@ extra:
     JavaScript: js
     CSS: css
     Python: python
-  social:  
+  social:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/guionardo
     - icon: fontawesome/brands/github
@@ -35,3 +38,16 @@ extra:
     property: G-XP7VGCD38K
 
 repo_url: https://github.com/guionardo/kb
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details

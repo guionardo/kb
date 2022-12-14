@@ -3,6 +3,7 @@ tags:
     - gif
     - console
     - terminal
+    - bash
 ---
 # Creating animated gifs from your terminal
 

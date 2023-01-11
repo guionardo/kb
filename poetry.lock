@@ -285,6 +285,14 @@ GitPython = "*"
 mkdocs = ">=1.0"
 
 [[package]]
+name = "mkdocs-include-markdown-plugin"
+version = "4.0.3"
+description = "Mkdocs Markdown includer plugin."
+category = "main"
+optional = false
+python-versions = "<3.12,>=3.7"
+
+[[package]]
 name = "mkdocs-material"
 version = "8.5.11"
 description = "Documentation that simply works"
@@ -525,8 +533,8 @@ watchmedo = ["PyYAML (>=3.10)"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "df72157283a6c22cd2999e3ecc8a5acdcb4af937488a4d4e9cbe5d4c0f530a10"
+python-versions = ">=3.10,<3.12"
+content-hash = "f698dedd6127259f8f54b4184243293f2cddeb090ff2e579937892f00523eaf8"
 
 [metadata.files]
 autopep8 = [
@@ -666,6 +674,10 @@ mkdocs-build-plantuml-plugin = [
 mkdocs-git-revision-date-localized-plugin = [
     {file = "mkdocs-git-revision-date-localized-plugin-1.1.0.tar.gz", hash = "sha256:38517e2084229da1a1b9460e846c2748d238c2d79efd405d1b9174a87bd81d79"},
     {file = "mkdocs_git_revision_date_localized_plugin-1.1.0-py3-none-any.whl", hash = "sha256:4ba0e49abea3e9f6ee26e2623ff7283873da657471c61f1d0cfbb986f403316d"},
+]
+mkdocs-include-markdown-plugin = [
+    {file = "mkdocs_include_markdown_plugin-4.0.3-py3-none-any.whl", hash = "sha256:bea863f0f4773c2dba4524e629bed222b0ce4135bcd47fc2fc6f524384f21bd8"},
+    {file = "mkdocs_include_markdown_plugin-4.0.3.tar.gz", hash = "sha256:0b98f8877a6e262a91024dae0d40597b04ebe9175f5dfdfa5796a9068e24458a"},
 ]
 mkdocs-material = [
     {file = "mkdocs_material-8.5.11-py3-none-any.whl", hash = "sha256:c907b4b052240a5778074a30a78f31a1f8ff82d7012356dc26898b97559f082e"},

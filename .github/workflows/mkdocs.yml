@@ -16,6 +16,9 @@ jobs:
       - name: Install requirements
         run: |          
           pip install -r requirements.txt
+      - name: Update last changed
+        run: |
+          python3 .github/scripts/last_changed.py
       - name: Build and deploy
         working-directory: .
         run: mkdocs gh-deploy --force --clean --verbose

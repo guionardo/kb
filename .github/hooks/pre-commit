@@ -1,0 +1,8 @@
+#!/bin/sh
+
+python3 .github/scripts/last_changed.py
+
+if [ $? -eq 0 ]; then
+	git add LAST_CHANGE.md
+	echo "LAST_CHANGE.md updated"
+fi

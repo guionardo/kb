@@ -71,7 +71,7 @@ def main():
                 os.path.dirname(file.removeprefix('docs/')))
 
             last.write(
-                f'| {group} | [{title}]({file_link}) | {change_date:%Y-%m-%d} |\n')
+                f'| {group} | [{title}](kb/{file_link}) | {change_date:%Y-%m-%d} |\n')
 
 
 if __name__ == '__main__':

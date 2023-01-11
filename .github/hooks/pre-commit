@@ -6,3 +6,6 @@ if [ $? -eq 0 ]; then
 	git add LAST_CHANGE.md
 	echo "LAST_CHANGE.md updated"
 fi
+
+python3 .github/scripts/update_requirements.py ./pyproject.toml ./requirements.txt
+git add requirements.txt

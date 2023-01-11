@@ -68,7 +68,7 @@ def main():
             title = parse_file_title(file)
             file_link, _ = os.path.splitext(file.removeprefix('docs/'))
             group = parse_snake_case(
-                os.path.dirname(file.removeprefix('docs/')))
+                os.path.dirname(file.removeprefix('docs/'))) or 'Home'
 
             last.write(
                 f'| {group} | [{title}](kb/{file_link}) | {change_date:%Y-%m-%d} |\n')

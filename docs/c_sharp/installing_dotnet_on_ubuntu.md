@@ -23,7 +23,7 @@ sudo apt remove netstandard*
 
 Then, create a file in /etc/apt/preferences.d (I named mine 99microsoft-dotnet.pref, following the convention that files in such *.d directories are typically prefixed with a 2-digit number so that they sort and load in a predictable order) with the following contents:
 
-``` title=/etc/apt/preferences.d/99microsoft-dotnet.pref
+``` text title=/etc/apt/preferences.d/99microsoft-dotnet.pref
 Package: *
 Pin: origin "packages.microsoft.com"
 Pin-Priority: 1001

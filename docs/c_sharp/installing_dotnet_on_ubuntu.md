@@ -23,7 +23,7 @@ sudo apt remove netstandard*
 
 Then, create a file in /etc/apt/preferences.d (I named mine 99microsoft-dotnet.pref, following the convention that files in such *.d directories are typically prefixed with a 2-digit number so that they sort and load in a predictable order) with the following contents:
 
-``` text title=/etc/apt/preferences.d/99microsoft-dotnet.pref
+```text
 Package: *
 Pin: origin "packages.microsoft.com"
 Pin-Priority: 1001
@@ -38,7 +38,7 @@ sudo apt install dotnet-sdk-6.0
 
 If you would rather use the official Ubuntu packages, remove all the existing packages as above, but instead of creating the /etc/apt/preferences.d entry, just delete the Microsoft repo:
 
-``` bash
+```bash
 sudo rm /etc/apt/sources.list.d/microsoft-prod.list
 sudo apt update
 sudo apt install dotnet-sdk-6.0

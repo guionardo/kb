@@ -2,6 +2,7 @@
 
 | Group | Doc | Update |
 |-------|-----|--------|
+| C Sharp | [Cronjob to clean all dotnet projects](kb/c_sharp/cron_clean_all_projects) | 2023-02-02 |
 | Bash | [Commands and Aliases](kb/bash/command_and_aliases) | 2023-02-01 |
 | C Sharp | [Fixing DotNet on Ubuntu](kb/c_sharp/installing_dotnet_on_ubuntu) | 2023-02-01 |
 | Docker | [PostgreSQL docker-compose](kb/docker/postgres) | 2023-02-01 |
@@ -11,4 +12,3 @@
 | Home | [Welcome](kb/index) | 2023-01-11 |
 | Tools | [Process Monitoring Graphics](kb/tools/process_monitoring) | 2023-01-11 |
 | Golang | [Golang bookmarks](kb/golang/_bookmarks) | 2022-12-15 |
-| Tools | [Tools bookmarks](kb/tools/_bookmarks) | 2022-12-15 |

@@ -16,3 +16,4 @@ tags: [vfp]
 - [VFP Brasil : Dicas e Truques VFP](http://alceu11.blogspot.com/2016/05/dicas-e-truques-vfp.html)
 - [How do I use the StatusBar Active-x Control](https://www.tek-tips.com/faqs.cfm?pid=184&fid=4788)
 - [Visual FoxPro como cliente en Internet (II): File Transfer Protocol](http://www.fpress.com/revista/Num9707/jul97.htm)
+- [Win32API for VFP Developers](https://doughennig.com/papers/Pub/E-WAPI.pdf)

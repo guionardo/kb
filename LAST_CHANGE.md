@@ -2,6 +2,7 @@
 
 | Group | Doc | Update |
 |-------|-----|--------|
+| Api | [Generating QRCode using google api](kb/api/generating_qrcode) | 2023-02-23 |
 | Architecture | [Architecture bookmarks](kb/architecture/_bookmarks) | 2023-02-23 |
 | Visual Fox Pro | [Visual Fox Pro bookmarks](kb/visual_fox_pro/_bookmarks) | 2023-02-06 |
 | C Sharp | [C# bookmarks](kb/c_sharp/_bookmarks) | 2023-02-02 |
@@ -11,4 +12,3 @@
 | Docker | [PostgreSQL docker-compose](kb/docker/postgres) | 2023-02-01 |
 | Docker | [MongoDB docker-compose](kb/docker/mongodb) | 2023-02-01 |
 | C Sharp | [Validação de CPF e CNPJ](kb/c_sharp/validacao_cpf_cnpj) | 2023-01-27 |
-| Git | [Git bookmarks](kb/git/_bookmarks) | 2023-01-11 |

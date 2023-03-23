@@ -9,3 +9,8 @@ tags: [architecture]
 - [Hexagonal architecture and DDD](https://towardsdev.com/hexagonal-architecture-and-domain-driven-design-bc2525dbc05f)
 - [Architecture Notes](https://architecturenotes.co/)
 - [Become a DevOps Engineer in 2023](https://devopscube.com/)
+
+## Hosting and Cloud Providers
+
+- [Coolify](https://coolify.io)
+- [Fly.io](https://fly.io)

@@ -6,6 +6,4 @@ Here I will add my solutions to my daily-base problems.
 
 Want to contribute? [Write an issue](https://github.com/guionardo/kb/issues).
 
-{%
-    include-markdown "../LAST_CHANGE.md"    
-%}
+{% include-markdown "../LAST_CHANGE.md" %}

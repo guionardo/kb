@@ -32,9 +32,10 @@ class Tabuleiro:
         random.seed()
         random.shuffle(self.palavras)
         self.chars = [' ']*self.width*self.height
-        for index, palavra in enumerate(self.palavras):
-            horizontal = index % 2 == 0
-            if not self.try_put_word(palavra, horizontal):
+        for palavra in self.palavras:
+            if self.try_put_word(palavra, horizontal):
+                horizontal = not horizontal
+            else:
                 self.try_put_word(palavra, not horizontal)
 
     def can_put_word_at(self, word: str, x: int, y: int, horizontal: bool) -> bool:

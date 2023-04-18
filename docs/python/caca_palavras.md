@@ -5,6 +5,20 @@ tags:
     - jogo
 ---
 
+![caça-palavra](https://thewordsearch.com/static/thumb/ice-cream-flavors-416.png)
+
+Fonte da imagem: [The Word Search](https://thewordsearch.com/)
+
+## Motivação
+
+Este desafio surgiu da necessidade de criar alguns jogos para crianças, com palavras específicas.
+
+Ao invés de sair à caça de algum site que faça isso automaticamente, pensei em desenvolver eu mesmo a minha solução.
+
+Este código gera uma matriz de letras que pode ser utilizado para montar o caça-palavras.
+
+Atualmente, o código posiciona as palavras horizontalmente (da esquerda para a direita) e verticalmente (de cima para baixo).
+
 ## Código
 
 ```python

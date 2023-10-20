@@ -125,3 +125,13 @@ fi
 ```
 
 In your custom scripts, you can send email to your local user and get notified.
+
+## Extra
+
+In WSL/ubuntu, I got an error when installing postfix. Working in it.
+
+More links:
+
+* https://www.cmsimike.com/blog/2011/10/30/setting-up-local-mail-delivery-on-ubuntu-with-postfix-and-mutt/
+
+

@@ -37,6 +37,8 @@ Name
 Realtek PCIe GBe Family Controller  1000000000
 ```
 
+### Linux
+
 In another machine, a server running Debian, I have to check the same thing.
 
 Listing the /sys/class/net folder we can get all the NIC´s (physical and logical). We need to identify the physical.
@@ -120,7 +122,7 @@ On one machine, start a iperf instance, as a server:
 
 ``` bash
 iperf3 -s
-`` 
+``
 
 And on another one, start a iperf client. Check the IP orof the server machine.
 

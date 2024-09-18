@@ -47,4 +47,6 @@ jobs:
       #     python3 .github/scripts/last_changed.py
       - name: Build and deploy
         working-directory: .
-        run: mkdocs gh-deploy --force --clean --verbose
+        run: |
+          source .venv/bin/activate
+          mkdocs gh-deploy --force --clean --verbose
